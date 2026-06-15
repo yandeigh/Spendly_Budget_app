@@ -29,3 +29,5 @@ Badges are computed dynamically from existing `Expense` and `BudgetGoal` records
 
 ### Own feature 2 — Goal-aware dashboard with min/max range
 The dashboard now shows the user's **goal range** (min – max) underneath the monthly progress bar, and colour-codes the progress bar/total amount (green / amber / red) so users can immediately see whether they're under, within, or over their planned spending range.
+
+https://youtu.be/q8q_obi6VsU?si=2Y71LGsmfbxOsj6E video for the app
