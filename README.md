@@ -14,8 +14,6 @@ Spendly is a Android application designed to help users track their expenses, ma
 - **Event Handling**: Button clicks, SeekBar changes, and Date/Time pickers.
 - **Architecture**: Multiple Activities connected via Intents, RoomDB for local storage.
 
-## Final POE additions (Part 3)
-
 ### Required features
 - **Category spending vs. goals chart** (`Reports` screen) — a bar chart showing how much was spent per category over the selected date range, with dashed reference lines for the user's overall **minimum** and **maximum** monthly budget goals so trends and over/under-spending are easy to spot at a glance.
 - **Visual budget progress** (Dashboard / `Login` screen) — the monthly progress bar and total now change colour based on how the user is doing against their min/max goals: green when on track, amber when under the minimum goal, and red when the maximum goal has been exceeded (overspending is highlighted visually).
