@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Monthly Budget Goals"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvMinGoalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Minimum Spending Goal: R0"/>
+
+    <SeekBar
+        android:id="@+id/sbMinGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10000"
+        android:progressTint="#000000"
+        android:thumbTint="#000000"
+        android:progressBackgroundTint="#444444"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvMaxGoalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Maximum Spending Goal: R0"
+        android:layout_marginTop="24dp"/>
+
+    <SeekBar
+        android:id="@+id/sbMaxGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20000"
+        android:progressTint="#000000"
+        android:thumbTint="#000000"
+        android:progressBackgroundTint="#444444"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSaveGoals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Goals"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
